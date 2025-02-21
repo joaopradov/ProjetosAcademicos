@@ -6,7 +6,7 @@ Bem-vindo à pasta dedicada aos meus projetos e exercícios acadêmicos durante 
 
 A pasta está organizada por semestres e disciplinas. Abaixo está a lista de semestres disponíveis:
 
-- **[Semestre 1](/Faculdade/Semestre-1)**: Disciplinas introdutórias e fundamentos de programação.
+- **[Semestre 1]**: Disciplinas introdutórias e fundamentos de programação.
 
 ## Semestres e Disciplinas
 
