@@ -14,7 +14,6 @@
 }
 
 :root{
-    --brand-gradient: gradient(#FC4A1A, #F7B733);
     --brand-color-primary: #F7B733;
     --brand-color-secondary: #FC4A1A;
 
@@ -29,9 +28,9 @@
     --fw-md: 500;
     --fw-bold: 800;
 
-    --fs-small: 0.875rem;
+    --fs-sm: 0.875rem;
     --fs-base: 1rem;
-    --fs-large: 1.25rem;
+    --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
 
