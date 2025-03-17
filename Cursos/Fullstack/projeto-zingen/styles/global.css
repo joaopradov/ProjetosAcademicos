@@ -41,6 +41,19 @@
 
 }
 
+@media (width >= 80em) {
+    :root{
+        --fs-large: 2rem;
+        --fs-xl: 3rem;
+        --fs-2xl: 4rem;
+
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
+        --px-lg: 2rem;
+    }
+}
+
 html{
     font-family: var(--font-family);
     font-weight: var(--fw-base);
@@ -48,6 +61,7 @@ html{
     line-height: 1.6;
     color: var(--text-color-primary);
 }
+
 body{
     background-color: var(--background-color);
 }
@@ -68,7 +82,7 @@ h2{
 }
 
 h3{
-    font-size: var(--fs-large);
+    font-size: var(--fs-lg);
 }
 
 a{
@@ -90,17 +104,4 @@ a:hover{
 
 ul[role="list"] {
     list-style: none;
-}
-
-@media (width >= 80em) {
-    :root{
-        --fs-large: 2rem;
-        --fs-xl: 3rem;
-        --fs-2xl: 4rem;
-
-        --py-base: 1.5rem;
-        --py-lg: 2.5rem;
-        --py-xl: 5rem;
-        --px-lg: 2rem;
-    }
 }

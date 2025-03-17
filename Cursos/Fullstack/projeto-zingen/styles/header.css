@@ -1,0 +1,5 @@
+header nav {
+    & a:first-child {
+        margin-right: auto;
+    }
+}
