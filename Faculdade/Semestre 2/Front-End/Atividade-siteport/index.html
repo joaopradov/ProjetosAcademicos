@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Página Atividade</title>
 
     <style>
         *{
-            font-family: Boldonse;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
     
         body{
@@ -18,109 +22,194 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 20px;
+            background-color: #f5f5f5;
         }
     
         .perfil{
-            width: 25%;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
         }
     
         header{
             text-align: center;
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 800px;
         }
     
         h1{
             color: cornflowerblue;
-            font-size: 1.5rem;
+            font-size: 2rem;
+            margin-bottom: 10px;
         }
     
         .habilidades{
-            justify-content: center;
-            margin-top: 5px;
+            margin-top: 20px;
         }
     
         h3{
-            
-            margin-bottom: 0.5px    ;
+            margin-bottom: 15px;
+            font-weight: normal;
         }
     
-        button{
-            font-size: 0.5rem;
-            color: cornflowerblue;
-            background-color: black;
-            border-radius: 1rem;
+        h6 {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+    
+        .habilidade-tag {
+        display: inline-block;
+        font-size: 1rem;
+        color: white;
+        background-color: cornflowerblue;
+        border-radius: 3px;
+        padding: 5px 12px;
+        margin: 4px;
+        }
+
+        .cabecalho {
+        width: 100%;
+        max-width: 1200px; /* Ajuste conforme o tamanho do seu container */
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: left;
+        }
+
+        .cabecalho h2 {
+            color: #333;
+            font-size: 1.8rem;
+            border-bottom: 2px solid cornflowerblue;
+            padding-bottom: 8px;
+            display: inline-block;
         }
 
         #projetos{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
             padding: 20px;
+            width: 100%;
+            max-width: 1200px;
         }
 
         .card{
-            width: 30%;
+            width: 100%;
+            max-width: 350px;
             background-color: #ffffff;
             border-radius: 0.5rem;
             text-align: center;
-            padding: 0.60rem;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .card img{
             width: 100%;
-            height: auto;
+            height: 200px;
             object-fit: cover;
+            border-radius: 0.5rem 0.5rem 0 0;
         }
 
         .card p{
             font-size: 1rem;
-            margin: 1rem;
+            margin: 1rem 0;
+            text-align: justify;
         }
 
         .card a {
-        display: inline-block;
-        background-color: cornflowerblue;
-        color: black;
-        padding: 10px 20px;
-        border-radius: 5px;
-        text-decoration: none;
-        size: 1rem;
-}
+            display: inline-block;
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: auto;
+            width: fit-content;
+            align-self: center;
+        }
+
+        .card a:hover {
+            background-color: #4a7bd6;
+        }
+
+        .contato{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .icon-btn{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 2rem;
+            width: 6rem;
+            border-radius: 0.5rem;
+            background-color: cornflowerblue;
+            color: white;
+            font-size: 1rem;
+            font-weight: 200;
+            margin: 0 5px;
+            flex-wrap: wrap;
+        }
+
     
     </style>
 </head>
 <body>
     <header>
-        <img class="perfil" src="assets/1735931363751.jpg" alt="">
+        <img class="perfil" src="assets/1735931363751.jpg" alt="Foto de perfil do João">
         <h1>Eu sou o João</h1>
         <h3>Sou estudante de Análise e Desenvolvimento de Sistemas na UTFPR, apaixonado por tecnologia e programação.</h3>
         <div class="habilidades">
             <h6>Minhas habilidades</h6>
-            <button>HTML</button>
-            <button>CSS</button>
-            <button>JAVASCRIPT</button>
+            <div class="habilidade-tag">HTML</div>
+            <div class="habilidade-tag">CSS</div>
+            <div class="habilidade-tag">JAVASCRIPT</div>
         </div>
     </header>
 
+    <div class="cabecalho">
+        <h2>Meus projetos</h2>
+    </div>
     <div id="projetos">
         <figure class="card">
-            <img src="assets/Thumbnail.png" alt="">
-            <p>O Portal de Notícias é uma aplicação estática que simula a interface de um site de notícias, com seções organizadas para exibir manchetes, artigos, anúncios e uma barra de navegação intuitiva.</p>
-            <a href="#">Veja o projeto</a>
+            <img src="assets/Thumbnail.png" alt="Projeto Portal de Notícias">
+            <figcaption>
+                <p>O Portal de Notícias é uma aplicação estática que simula a interface de um site de notícias, com seções organizadas para exibir manchetes, artigos, anúncios e uma barra de navegação intuitiva.</p>
+                <a href="https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-portal-noticias">Veja o projeto</a>
+            </figcaption>
         </figure>
 
         <figure class="card">
-            <img src="assets/Cover.jpg" alt="">
-            <p>O Travelgram apresenta uma página de perfil de usuário, onde os viajantes podem exibir seus registros de viagem por meio de uma interface simples e intuitiva.</p>
-            <a href="#">Veja o projeto</a>
+            <img src="assets/Cover.jpg" alt="Projeto Travelgram">
+            <figcaption>
+                <p>O Travelgram apresenta uma página de perfil de usuário, onde os viajantes podem exibir seus registros de viagem por meio de uma interface simples e intuitiva.</p>
+                <a href="https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-travelgram">Veja o projeto</a>
+            </figcaption>
         </figure>
 
         <figure class="card">
-            <img src="assets/Thumbnail.jpg" alt="">
-            <p>A página foi criada com o objetivo de aplicar e praticar os fundamentos de desenvolvimento web.</p>
-            <a href="#">Veja o projeto</a>
+            <img src="assets/Thumbnail.jpg" alt="Projeto de Página de Receita">
+            <figcaption>
+                <p>A página foi criada com o objetivo de aplicar e praticar os fundamentos de desenvolvimento web.</p>
+                <a href="https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-pagina-receita">Veja o projeto</a>
+            </figcaption>
         </figure>
     </div>
-    
+
+    <div class="cabecalho">
+        <h2>Entre em contato</h2>
+        <div class="contato">
+            <a href="https://github.com/joaopradov" class="icon-btn"> <i class="fab fa-github"></i> GitHub</a>
+            <a href="https://linkedin.com/in/joaopradov" class="icon-btn"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://instagram.com/joaopradov" class="icon-btn"> <i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+    </div>
+</body>
 </html>
