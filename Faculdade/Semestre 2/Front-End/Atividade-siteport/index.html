@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <title>Página Atividade</title>
+
+    <style>
+        *{
+            font-family: Boldonse;
+        }
+    
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .perfil{
+            width: 25%;
+            border-radius: 50%;
+        }
+    
+        header{
+            text-align: center;
+        }
+    
+        h1{
+            color: cornflowerblue;
+            font-size: 1.5rem;
+        }
+    
+        .habilidades{
+            justify-content: center;
+            margin-top: 5px;
+        }
+    
+        h3{
+            
+            margin-bottom: 0.5px    ;
+        }
+    
+        button{
+            font-size: 0.5rem;
+            color: cornflowerblue;
+            background-color: black;
+            border-radius: 1rem;
+        }
+
+        #projetos{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card{
+            width: 30%;
+            background-color: #ffffff;
+            border-radius: 0.5rem;
+            text-align: center;
+            padding: 0.60rem;
+        }
+
+        .card img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .card p{
+            font-size: 1rem;
+            margin: 1rem;
+        }
+
+        .card a {
+        display: inline-block;
+        background-color: cornflowerblue;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        size: 1rem;
+}
+    
+    </style>
+</head>
+<body>
+    <header>
+        <img class="perfil" src="assets/1735931363751.jpg" alt="">
+        <h1>Eu sou o João</h1>
+        <h3>Sou estudante de Análise e Desenvolvimento de Sistemas na UTFPR, apaixonado por tecnologia e programação.</h3>
+        <div class="habilidades">
+            <h6>Minhas habilidades</h6>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JAVASCRIPT</button>
+        </div>
+    </header>
+
+    <div id="projetos">
+        <figure class="card">
+            <img src="assets/Thumbnail.png" alt="">
+            <p>O Portal de Notícias é uma aplicação estática que simula a interface de um site de notícias, com seções organizadas para exibir manchetes, artigos, anúncios e uma barra de navegação intuitiva.</p>
+            <a href="#">Veja o projeto</a>
+        </figure>
+
+        <figure class="card">
+            <img src="assets/Cover.jpg" alt="">
+            <p>O Travelgram apresenta uma página de perfil de usuário, onde os viajantes podem exibir seus registros de viagem por meio de uma interface simples e intuitiva.</p>
+            <a href="#">Veja o projeto</a>
+        </figure>
+
+        <figure class="card">
+            <img src="assets/Thumbnail.jpg" alt="">
+            <p>A página foi criada com o objetivo de aplicar e praticar os fundamentos de desenvolvimento web.</p>
+            <a href="#">Veja o projeto</a>
+        </figure>
+    </div>
+    
+</html>
