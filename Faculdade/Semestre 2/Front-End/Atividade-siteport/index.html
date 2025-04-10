@@ -10,6 +10,15 @@
     <title>Página Atividade</title>
 
     <style>
+        :root{
+            --bg-color: #0f0e17;
+            --btn-color: #ff8906;
+            --btn-hover: #f25f4c;
+            --btn-text-color: #fffffe;
+            --txt-head-color: #fffffe;
+            --txt-paragraph-color: #a7a9be;
+        }
+
         *{
             font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -23,7 +32,8 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
-            background-color: #f5f5f5;
+            background-color: var(--bg-color);
+            /* background-color: #f5f5f5; */
         }
     
         .perfil{
@@ -42,7 +52,7 @@
         }
     
         h1{
-            color: cornflowerblue;
+            color: var(--btn-color);
             font-size: 2rem;
             margin-bottom: 10px;
         }
@@ -54,6 +64,7 @@
         h3{
             margin-bottom: 15px;
             font-weight: normal;
+            color: var(--txt-paragraph-color);
         }
     
         h6 {
@@ -65,7 +76,7 @@
         display: inline-block;
         font-size: 1rem;
         color: white;
-        background-color: cornflowerblue;
+        background-color: var(--btn-color);
         border-radius: 3px;
         padding: 5px 12px;
         margin: 4px;
@@ -80,9 +91,9 @@
         }
 
         .cabecalho h2 {
-            color: #333;
+            color: var(--txt-head-color);
             font-size: 1.8rem;
-            border-bottom: 2px solid cornflowerblue;
+            border-bottom: 2px solid var(--btn-color);
             padding-bottom: 8px;
             display: inline-block;
         }
@@ -122,7 +133,7 @@
 
         .card a {
             display: inline-block;
-            background-color: cornflowerblue;
+            background-color: var(--btn-color);
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
@@ -133,7 +144,7 @@
         }
 
         .card a:hover {
-            background-color: #4a7bd6;
+            background-color: var(--btn-hover);
         }
 
         .contato{
@@ -150,7 +161,7 @@
             height: 2rem;
             width: 6rem;
             border-radius: 0.5rem;
-            background-color: cornflowerblue;
+            background-color: var(--btn-color);
             color: white;
             font-size: 1rem;
             font-weight: 200;
