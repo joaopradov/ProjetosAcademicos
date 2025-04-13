@@ -5,7 +5,7 @@
 > Curso: Análise e Desenvolvimento de Sistemas  
 > Instituição: Universidade Tecnológica Federal do Paraná
 
-Portfólio acadêmico criado como atividade prática da disciplina de Desenvolvimento Front-End. O projeto demonstra a aplicação dos conceitos aprendidos em sala, com uma interface responsiva que apresenta meus trabalhos desenvolvidos durante o curso.
+Portfólio acadêmico criado como atividade prática da disciplina de Desenvolvimento Front-End. O projeto demonstra a aplicação dos conceitos aprendidos em sala, com uma interface que apresenta meus trabalhos desenvolvidos durante o curso.
 
 ## 📚 Objetivos da Atividade
 

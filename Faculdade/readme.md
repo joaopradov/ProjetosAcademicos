@@ -7,15 +7,17 @@ Bem-vindo à pasta dedicada aos meus projetos e exercícios acadêmicos durante 
 A pasta está organizada por semestres e disciplinas. Abaixo está a lista de semestres disponíveis:
 
 - **[Semestre 1]**: Disciplinas introdutórias e fundamentos de programação.
+- **[Semestre 2]**: Aprofundamento em conceitos avançados de programação e desenvolvimento de sistemas.
 
 ## Semestres e Disciplinas
 
 ### Semestre 1
-- **Fundamentos de Programação**:
   - Exercícios e projetos em linguagem C.
   - Introdução a lógica de programação e estruturas básicas.
-- **Algoritmos**:
   - Implementação de algoritmos clássicos e resolução de problemas.
+
+### Semestre 2
+  - Projetos e exercícios focados em paradigmas de programação avançados e tecnologias essenciais para desenvolvimento de sistemas.
 
 ## Como Navegar
 
