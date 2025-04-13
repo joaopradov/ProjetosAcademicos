@@ -21,10 +21,10 @@ Projetos academicos/
 ## 🔗 Links Rápidos
 ### Projetos Disponíveis
 
-| Atividade 1 - Currículo| [📁 Acessar Pasta](./Atividade-Curriculo/) | [🌐 Ver Projeto]() |
-| Atividade 2 - Tabelas | [📁 Acessar Pasta](./Atividade-aula3/) | [🌐 Ver Projeto]() |
-| Atividade 3 - Listas | [📁 Acessar Pasta](./Atividade-semana3/) | [🌐 Ver Projeto]() |
-| Atividade 4 - Site | [📁 Acessar Pasta](./Atividade-siteport/) | [🌐 Ver Projeto]() |
+| Atividade 1 - Currículo| [📁 Acessar Pasta](./Atividade-Curriculo/) | [🌐 Ver Projeto]() |<br>
+| Atividade 2 - Tabelas | [📁 Acessar Pasta](./Atividade-aula3/) | [🌐 Ver Projeto]() |<br>
+| Atividade 3 - Listas | [📁 Acessar Pasta](./Atividade-semana3/) | [🌐 Ver Projeto]() |<br>
+| Atividade 4 - Site | [📁 Acessar Pasta](./Atividade-siteport/) | [🌐 Ver Projeto]() |<br>
 
 ## 🛠 Tecnologias Utilizadas
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
