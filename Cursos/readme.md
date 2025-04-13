@@ -1,60 +1,41 @@
-# 🚀 Curso de Desenvolvimento Fullstack
+# 📚 Repositório de Cursos Acadêmicos
 
-Repositório dedicado aos projetos e estudos do curso de Desenvolvimento Fullstack, cobrindo tanto front-end quanto back-end.
-
-## 📌 Descrição
-Formação completa em desenvolvimento web, desde fundamentos até construção de aplicações complexas com:
-- **Front-end**: HTML, CSS, JavaScript e frameworks modernos
-- **Back-end**: Node.js, bancos de dados e APIs RESTful
-- **DevOps**: Conceitos básicos de deploy e CI/CD
+Repositório centralizado para armazenar todos os materiais, projetos e exercícios de cursos relacionados à programação e tecnologia.
 
 ## 🗂 Estrutura do Repositório
-```plaintext
-Projetos academicos/
-└── Cursos/
-    └── Fullstack/
-          └── projeto 1/        # Projeto 1
-            └── assets/         # Arquivos estáticos
-            └── styles/         # Folhas de estilo
-            └── index           # Página principal
-            └── README.md       # Documentação do projeto
-          └── projeto 2/        # Projeto 2
-            └── assets/         # Arquivos estáticos
-            └── styles/         # Folhas de estilo
-            └── index           # Página principal
-            └── README.md       # Documentação do projeto
-          └── README.md         # Documentação principal do curso
+
+```
+Cursos/
+├── frontend/                  # Cursos de desenvolvimento front-end
+│   ├── html-css/             # Fundamentos web
+│   └── javascript/           # Lógica de programação
+│
+├── backend/                  # Cursos de back-end
+│   ├── nodejs/               # JavaScript no servidor
+│   └── banco-de-dados/       # SQL e NoSQL
+│
+├── fullstack/                # Cursos completos
+│   ├── projeto-1/            # Aplicação fullstack
+│   └── projeto-2/
+│
+└── outros/                   # Outras especializações
+    ├── mobile/               # Desenvolvimento mobile
+    └── data-science/         # Análise de dados
 ```
 
-## 📚 Conteúdo Atual
-### ✅ HTML & CSS
-- Estrutura semântica HTML5
-- Flexbox e Grid Layout
-- Design responsivo
-- Animações CSS
+## 📌 Como Usar
 
-## 🔜 Próximos Tópicos
-- JavaScript
-- Front-end - Frameworks
-- Back-end  
-- Banco de Dados
-
-## 🔗 Links Rápidos
-### Projetos Disponíveis
-
-| Projeto Página de Receita| [📁 Acessar Pasta](./Fullstack/projeto-pagina-receita/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-pagina-receita/) |<br>
-| Projeto TravelGram | [📁 Acessar Pasta](./Fullstack/projeto-travelgram/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-travelgram/) |<br>
-| Projeto Portal de Notícias | [📁 Acessar Pasta](./Fullstack/projeto-portal-noticias/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-portal-noticias/) |<br>
-| Projeto Formulário de Matrícula| [📁 Acessar Pasta](./Fullstack/projeto-formulario-matricula/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-formulario-matricula/) |<br>
-| Projeto Zingen | [📁 Acessar Pasta](./Fullstack/projeto-zingen/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-zingen/) |<br>
-
-## 📝 Como Contribuir
-1. Clone o repositório:
+1. **Navegação**:
    ```bash
-   git clone https://github.com/seu-usuario/frontend.git
+   cd Cursos/nome-do-curso/projeto-especifico
+   ```
 
-2. Navegue até a pasta do projeto desejado
+2. **Links diretos**:
+   - [Fullstack](./Fullstack/)
 
-3. Abra os arquivos no seu editor favorito
+## 📝 Documentação
 
-**Nota**: Esta pasta será atualizada conforme eu completo novos módulos e adiciono novos materiais.
+Cada curso/projeto possui:
+- `README.md` com instruções específicas
+- `docs/` para materiais complementares
+- `examples/` com códigos de exemplo

@@ -1,13 +1,60 @@
-## Projetos Incluídos
+# 🚀 Curso de Desenvolvimento Fullstack
 
-### 1. Página de Receita
-- **Descrição:** Uma página estática desenvolvida para exibir receitas culinárias, com foco em estruturação semântica e estilização responsiva. O projeto foi criado como parte do curso da Rocketseat, para consolidar o aprendizado de HTML5 e CSS.
-- **Tecnologias:** HTML5, CSS3.
+Repositório dedicado aos projetos e estudos do curso de Desenvolvimento Fullstack, cobrindo tanto front-end quanto back-end.
 
-### 2. Travelgram - Perfil de Rede Social de Viagens
-- **Descrição:** O Travelgram apresenta uma página de perfil de usuário, onde os viajantes podem exibir seus registros de viagem por meio de uma interface simples e intuitiva. A página é totalmente estática, construída com HTML e CSS, e serve como um exemplo de design responsivo e moderno.
-- **Tecnologias:** HTML5, CSS3.
+## 📌 Descrição
+Formação completa em desenvolvimento web, desde fundamentos até construção de aplicações complexas com:
+- **Front-end**: HTML, CSS, JavaScript e frameworks modernos
+- **Back-end**: Node.js, bancos de dados e APIs RESTful
+- **DevOps**: Conceitos básicos de deploy e CI/CD
 
-### 3. Portal de Notícias
-- **Descrição:** O Portal de Notícias é uma página estática desenvolvida para simular um site de notícias, com foco em layout responsivo e design moderno. O projeto foi criado como parte do curso de Fullstack da Rocketseat, utilizando apenas HTML e CSS, para consolidar o aprendizado de estruturação semântica e estilização avançada.
-- **Tecnologias:** HTML5, CSS3.
+## 🗂 Estrutura do Repositório
+```plaintext
+Projetos academicos/
+└── Cursos/
+    └── Fullstack/
+          └── projeto 1/        # Projeto 1
+            └── assets/         # Arquivos estáticos
+            └── styles/         # Folhas de estilo
+            └── index           # Página principal
+            └── README.md       # Documentação do projeto
+          └── projeto 2/        # Projeto 2
+            └── assets/         # Arquivos estáticos
+            └── styles/         # Folhas de estilo
+            └── index           # Página principal
+            └── README.md       # Documentação do projeto
+          └── README.md         # Documentação principal do curso
+```
+
+## 📚 Conteúdo Atual
+### ✅ HTML & CSS
+- Estrutura semântica HTML5
+- Flexbox e Grid Layout
+- Design responsivo
+- Animações CSS
+
+## 🔜 Próximos Tópicos
+- JavaScript
+- Front-end - Frameworks
+- Back-end  
+- Banco de Dados
+
+## 🔗 Links Rápidos
+### Projetos Disponíveis
+
+| Projeto Página de Receita| [📁 Acessar Pasta](./Fullstack/projeto-pagina-receita/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-pagina-receita/) |<br>
+| Projeto TravelGram | [📁 Acessar Pasta](./Fullstack/projeto-travelgram/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-travelgram/) |<br>
+| Projeto Portal de Notícias | [📁 Acessar Pasta](./Fullstack/projeto-portal-noticias/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-portal-noticias/) |<br>
+| Projeto Formulário de Matrícula| [📁 Acessar Pasta](./Fullstack/projeto-formulario-matricula/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-formulario-matricula/) |<br>
+| Projeto Zingen | [📁 Acessar Pasta](./Fullstack/projeto-zingen/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-zingen/) |<br>
+
+## 📝 Como Contribuir
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/frontend.git
+
+2. Navegue até a pasta do projeto desejado
+
+3. Abra os arquivos no seu editor favorito
+
+**Nota**: Esta pasta será atualizada conforme eu completo novos módulos e adiciono novos materiais.
