@@ -11,11 +11,9 @@ Atividade prática desenvolvida para a disciplina de **Desenvolvimento Front-End
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** → Estruturação do conteúdo
 - **CSS Básico** → Estilização simples
-- **Markdown** → Documentação
 
 ## 📋 Estrutura do Projeto
 
-```html
 1. Lista não ordenada → Soft Skills Fundamentais
 2. Lista ordenada → Prioridades de Desenvolvimento 
 3. Listas mistas → Como desenvolver soft skills

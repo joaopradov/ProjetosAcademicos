@@ -13,3 +13,8 @@ Portfólio desenvolvido com HTML e CSS, demonstrando habilidades em front-end. C
 | **Projetos** - Cards com 3 projetos destacados |
 | **Contato** - Botões com links para redes sociais |
 
+## 🛠 Tecnologias Utilizadas
+
+| HTML5 | Estruturação semântica do conteúdo |
+| CSS3 | Estilização e efeitos visuais |
+| Font Awesome | Ícones profissionais |
