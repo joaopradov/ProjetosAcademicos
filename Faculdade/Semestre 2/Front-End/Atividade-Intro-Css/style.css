@@ -11,14 +11,39 @@ body{
     background-color: var(--background-color);
     font-family: "Quicksand", sans-serif;
     color: var(--var-color4);
+    text-align: justify;
 }
 
 .cabecalho{
+    margin: 10px;
     & img{
-
+        border-radius: 10px;
+        width: 100%;
+        height: auto; 
     }
 }
 
+.corpo{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    gap: 15px;
+}
+
+.texto{
+    flex: 3; 
+}
+
+.imagens{
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
 .imagens img{
-    
+    width: 100%; 
+    border-radius: 8px;
+    object-fit: cover; 
+    height: auto;
 }
