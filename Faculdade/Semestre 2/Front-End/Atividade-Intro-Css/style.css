@@ -1,16 +1,13 @@
 :root{
     --background-color: #13293D;
-    --var-color1: #006494;
-    --var-color2: #247BA0;
-    --var-color3: #1B98E0;
-    --var-color4: #E8F1F2;
+    --var-color1: #E8F1F2;
 
 }
 
 body{
     background-color: var(--background-color);
     font-family: "Quicksand", sans-serif;
-    color: var(--var-color4);
+    color: var(--var-color1);
     text-align: justify;
 }
 
