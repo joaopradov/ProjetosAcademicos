@@ -1,0 +1,37 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+}
+
+p {
+    text-align: justify;
+    padding-right: 25px;
+}
+
+section {
+    display:  flex;
+    padding: 25px;
+}
+
+.titulo {
+    align-content: center;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    align-content: center;
+}
+
+
+
