@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lilita One", sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+body{
+    --bg:linear-gradient(180deg,#0F3361 0%,#010810 50%);
+    --primary:#5ecef4;
+    background:var(--bg);
+    color:#fff;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:100%;
+    max-width:1000px;
+    padding:2rem;
+}
+
+.conteudo-perfil {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    align-items:center;
+}
+
+.titulo-perfil{
+    flex:1 1 300px;
+
+    & h1 {
+        font-size:2rem;
+        margin-bottom:1rem;
+    }   
+}
+
+.destaque{
+    color:#5ecef4;
+}
+
+.bio{
+    line-height:1.4;
+    margin-bottom:1.5rem;
+}
+
+.botoes {
+    display:flex;
+    gap:1rem;
+
+    & .botoes-rede {
+        display:inline-block;
+        padding:.6rem 1.2rem;
+        background-color:#5ecef4;
+        color:#0a1a33;
+        text-decoration:none;
+        font-weight:bold;
+        border-radius:4px;
+        
+        &:hover {
+            background-color:#4ab8de;
+        }
+    }
+}
+
+.container-foto {
+    flex:1 1 240px;
+    display:flex;
+    justify-content:center;
+}
+
+.foto-perfil {
+    position:relative;
+    width:240px;
+    height:320px;
+
+    & img {
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        border-radius:6px;
+    }
+}
+
+.decoracao{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:100%;
+    height:100%;
+    border:3px solid #5ecef4;
+    border-radius:14px;
+    z-index:-1;
+}
