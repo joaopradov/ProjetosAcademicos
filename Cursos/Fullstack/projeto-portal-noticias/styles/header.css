@@ -61,8 +61,4 @@
     #primary div:nth-child(2){
         order: -1;
     }
-
-    #secondary {
-        display: none;
-    }
 }

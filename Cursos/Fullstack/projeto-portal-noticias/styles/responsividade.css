@@ -1,0 +1,72 @@
+@media (max-width: 1024px) {
+    main {
+        grid-template-columns: 1fr; 
+        grid-template-areas:
+            "feature"
+            "weekly"
+            "ai"
+            "aside";
+        gap: 40px;
+    }
+
+    #weekly > div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    #feature {
+        grid-template-columns: 1fr;
+    }
+
+    #feature > .card {
+        margin-bottom: 24px;
+    }
+
+    #feature > div {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    #weekly > div {
+        grid-template-columns: 1fr; /* 1 coluna em celular */
+    }
+
+    #ai .grid-flow-col {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #ai article {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        margin-top: 40px;
+    }
+
+    #more article {
+        grid-template-columns: 72px 1fr;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding-inline: 16px;
+    }
+
+    .text-2xl, .text-xl, .text-lg {
+        text-align: left;
+    }
+
+    #ai img {
+        width: 100%;
+        height: auto;
+    }
+
+    #more img {
+        width: 56px;
+    }
+}
