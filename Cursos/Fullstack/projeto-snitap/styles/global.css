@@ -1,0 +1,66 @@
+:root {
+    /* Fontes */
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-syne: 'Syne', sans-serif;
+
+    /* Cores Base */
+    --color-text: #000000;
+    --color-highlight: #000000;
+    --color-background: #FAFAFA;
+
+    /* Cores da Marca */
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --snitap-leaf-mid: #16A34A;
+
+    /* Tipografias */
+    --fs-h1: 4rem;
+    --flh-h1: 1.25;
+    --fw-h1: 700;
+
+    --fs-h2: 2.5rem;
+    --flh-h2: 1.2;
+    --fw-h2: 700;
+
+    --fs-btn: 1rem;
+    --flh-btn: 1.5;
+    --fw-btn: 500;
+
+    --fs-span: 0.875rem;
+    --flh-span: 1.5;
+    --fw-span: 500;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 500 16px/1.5 var(--font-montserrat);
+}
+
+h1, h2 {
+    font-family: var(--font-syne);
+}
+
+h1 {
+    font-size: var(--fs-h1);
+    line-height: var(--flh-h1);
+    font-weight: var(--fw-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+    line-height: var(--flh-h2);
+    font-weight: var(--fw-h2);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
