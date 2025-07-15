@@ -42,6 +42,7 @@
 
 html{
     font: 500 16px/1.5 var(--font-montserrat);
+    overflow-x: hidden;
 }
 
 h1, h2 {

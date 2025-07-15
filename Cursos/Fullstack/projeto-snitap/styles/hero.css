@@ -218,3 +218,141 @@ section.hero {
         transform: translateY(-15rem);
     }
 }
+
+@media (max-width: 900px) {
+    section.hero {
+        flex-direction: column-reverse;
+
+        & h1 {
+            max-width: 80%;
+            margin-inline: auto;
+            text-align: center;
+
+            & span {
+                text-align: left;
+            }
+        }
+
+        & .buttons {
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            & .button {
+                max-width: 20rem;
+                justify-content: center;
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 500px) {
+    section.hero {
+        padding: 1rem;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+
+        > div:nth-child(2) {
+            max-width: 18rem;
+            height: 18rem;
+            margin: 0 auto;
+            
+            img[src*="patins"] {
+                width: 90%;
+                left: 5%;
+            }
+            
+            img[src*="Stars"] {
+                max-width: 15%;
+            }
+        }
+
+        h1 {
+            font-size: 2rem;
+            line-height: 1.5;
+            
+            div {
+                height: 3rem;
+            }
+        }
+
+        .buttons {
+            flex-direction: column-reverse;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            
+            .button {
+                width: 90%;
+                padding: 1rem;
+                justify-content: center;
+            }
+        }
+    }
+
+    @keyframes slideUp{
+    0%, 22% {
+        transform: translateY(0);
+    }
+
+    23% {
+        transform: translateY(calc(-3rem - 15px));
+    }
+
+    25% {
+        transform: translateY(calc(-3rem + 10px));
+    }
+
+    27% {
+        transform: translateY(calc(-3rem - 5px));
+    }
+
+    29% {
+        transform: translateY(calc(-3rem + 5px));
+    }
+
+    33%, 55% {
+        transform: translateY(-3rem);
+    }
+
+    57% {
+        transform: translateY(calc(-6rem - 15px));
+    }
+
+    59% {
+        transform: translateY(calc(-6rem + 10px));
+    }
+
+    61% {
+        transform: translateY(calc(-6rem - 5px));
+    }
+
+    63% {
+        transform: translateY(calc(-6rem + 5px));
+    }
+
+    66%,88% {
+        transform: translateY(-6rem);
+    }
+
+    90% {
+        transform: translateY(calc(-9rem - 15px));
+    }
+
+    92% {
+        transform: translateY(calc(-9rem + 10px));
+    }
+
+    94% {
+        transform: translateY(calc(-9rem - 5px));
+    }
+
+    96% {
+        transform: translateY(calc(-9rem + 5px));
+    }
+
+    100% {
+        transform: translateY(-9rem);
+    }
+}
+}
