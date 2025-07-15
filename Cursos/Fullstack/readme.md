@@ -47,11 +47,12 @@ Projetos academicos/
 | Projeto Portal de Notícias | [📁 Acessar Pasta](./Fullstack/projeto-portal-noticias/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-portal-noticias/) |<br>
 | Projeto Formulário de Matrícula| [📁 Acessar Pasta](./Fullstack/projeto-formulario-matricula/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-formulario-matricula/) |<br>
 | Projeto Zingen | [📁 Acessar Pasta](./Fullstack/projeto-zingen/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-zingen/) |<br>
+| Projeto Snitap | [📁 Acessar Pasta](./Fullstack/projeto-snitap/) | [🌐 Ver Projeto](https://joaopradov.github.io/ProjetosAcademicos/Cursos/Fullstack/projeto-snitap/) |<br>
 
 ## 📝 Como Contribuir
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/frontend.git
+   git clone https://github.com/seu-usuario/fullstack.git
 
 2. Navegue até a pasta do projeto desejado
 
